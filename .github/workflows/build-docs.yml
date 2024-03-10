@@ -5,9 +5,9 @@ on:
     branches: ["master"]
   workflow_dispatch:
 
-    permissions:
-      id-token: write
-      pages: write
+permissions:
+  id-token: write
+  pages: write
 
 env:
   INSTANCE: 'FooterMan/docs'
@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build docs using FooterMan Docker builder
+      - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ env.INSTANCE }}
@@ -34,21 +34,22 @@ jobs:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
+            artifacts/report.json
           retention-days: 7
-          test:
-            needs: build
-            runs-on: ubuntu-latest
-            steps:
-              - name: Download artifacts
-                uses: actions/download-artifact@v3
-                with:
-                  name: docs
-                  path: artifacts
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+            name: docs
+            path: artifacts
 
-              - name: Test documentation
-                uses: JetBrains/writerside-checker-action@v1
-                with:
-                  instance: ${{ env.INSTANCE }}
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+            instance: ${{ env.INSTANCE }}
         deploy:
           environment:
             name: github-pages
