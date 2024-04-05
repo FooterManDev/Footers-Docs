@@ -1,5 +1,5 @@
 # General Utilities
-
+Modrinth - https://modrinth.com/mod/general-utilities
 
 ### Commands:
 
