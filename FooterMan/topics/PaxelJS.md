@@ -1,3 +1,0 @@
-# PaxelJS
-
-Start typing here...
