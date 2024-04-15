@@ -10,4 +10,12 @@
         <description>Created after removal of "Empty XML Topic" from Help Instance</description>
         <accepts>Empty-XML-Topic.html</accepts>
     </rule>
+    <rule id="1bb22f00">
+        <description>Created after removal of "General Utlities" from FooterMan</description>
+        <accepts>General-Utlities.html</accepts>
+    </rule>
+    <rule id="92feabf">
+        <description>Created after removal of "PaxelJS" from FooterMan</description>
+        <accepts>PaxelJS.html</accepts>
+    </rule>
 </rules>
