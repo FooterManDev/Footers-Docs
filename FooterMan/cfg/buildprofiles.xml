@@ -6,8 +6,8 @@
         <variables>
             <noindex-content>false</noindex-content>
             <primary-color>dracula</primary-color>
-            <custom-favicons>favicon.svg</custom-favicons>
-            <header-logo>favicon.svg</header-logo>
+            <custom-favicons>FM16-Dev.svg</custom-favicons>
+            <header-logo>FM16-Dev.svg</header-logo>
         </variables>
     </build-profile>
     <footer>

@@ -18,4 +18,12 @@
         <description>Created after removal of "PaxelJS" from FooterMan</description>
         <accepts>PaxelJS.html</accepts>
     </rule>
+    <rule id="298c4e5b">
+        <description>Created after removal of "How to" from FooterMan</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+    <rule id="3dc8e591">
+        <description>Created after removal of "Tutorial" from FooterMan</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
 </rules>
