@@ -26,3 +26,9 @@ Contains shared code for my mods.
 <img src="mr.png" alt="Modrinth"/> **FooterManDev**: [modrinth.com/FooterManDev](https://modrinth.com/user/FooterManDev)
 
 <img src="cf.png" alt="Curseforge" width="28" height="28"/> **FooterMan16**: [curseforge.com/footerman16](https://www.curseforge.com/members/footerman16)
+
+This Docs site is hosted on GitHub Pages using Writerside and Actions.
+
+<img src="github.png" alt="Github" border-effect="rounded"/> **Footers-Docs**: [github.com/Footers-Docs](https://github.com/FooterManDev/Footers-Docs)
+
+<img src="writerside.svg" alt="Writerside" width="28" height="28"/> **Writerside**: [jetbrains.com/writerside](https://www.jetbrains.com/writerside/)
