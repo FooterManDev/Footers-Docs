@@ -5,7 +5,7 @@
     <build-profile instance="docs">
         <variables>
             <noindex-content>false</noindex-content>
-            <primary-color>dracula</primary-color>
+            <primary-color>aqua</primary-color>
             <custom-favicons>FM16-Dev.svg</custom-favicons>
             <header-logo>FM16-Dev.svg</header-logo>
         </variables>
