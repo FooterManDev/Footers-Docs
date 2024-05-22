@@ -12,9 +12,9 @@
 **Usage**: 
 <tabs>
     <tab title="1.19+">
-        <code-block lang="javascript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"/>
+        <code-block lang="javascript" include-lines="1-3" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"/>
     </tab>
     <tab title="1.18-">
-        <code-block lang="javascript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel18.js"/>
+        <code-block lang="javascript" include-lines="4-6" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"/>
     </tab>
 </tabs>
