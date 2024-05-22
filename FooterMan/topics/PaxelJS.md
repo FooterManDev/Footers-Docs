@@ -10,5 +10,11 @@
 <img src="cf.png" alt="Curseforge" width="28" height="28"/> **Curseforge**: [curseforge.com/paxeljs](https://www.curseforge.com/minecraft/mc-mods/paxeljs)
 
 **Usage**: 
-<code-block lang="coffeescript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"></code-block>
-
+<tabs>
+    <tab title="1.19+">
+        <code-block lang="javascript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"/>
+    </tab>
+    <tab title="1.18-">
+        <code-block lang="javascript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel18.js"/>
+    </tab>
+</tabs>
