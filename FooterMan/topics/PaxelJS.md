@@ -7,12 +7,8 @@
 |   1.18.2    |   Forge    |     No     |
 
 <img src="mr.png" alt="Modrinth"/> **Modrinth**: [modrinth.com/paxeljs](https://modrinth.com/mod/paxeljs) \
-<img src="cf.png" alt="Curseforge"/> **Curseforge**: [curseforge.com/paxeljs](https://www.curseforge.com/minecraft/mc-mods/paxeljs)
+<img src="cf.png" alt="Curseforge" width="28" height="28"/> **Curseforge**: [curseforge.com/paxeljs](https://www.curseforge.com/minecraft/mc-mods/paxeljs)
 
-**Usage**:
-```Javascript
-StartupEvents.registry('item', event => {
-    event.create('cool_paxel', 'paxel')
-})
-```
-<
+**Usage**: 
+<code-block lang="coffeescript" src="https://raw.githubusercontent.com/FooterManDev/Footers-Docs/master/FooterMan/resources/paxel.js"></code-block>
+

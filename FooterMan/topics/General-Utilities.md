@@ -8,8 +8,8 @@
 |   1.20.5    |    Neo     |     No     |
 |   1.20.6    |    Neo     |    Yes     |
 
-**Modrinth** - https://modrinth.com/mod/general-utilities \
-**Curse** - https://www.curseforge.com/minecraft/mc-mods/general-utilities
+<img src="mr.png" alt="Modrinth"/> **Modrinth**: [modrinth.com/general-utilities](https://modrinth.com/mod/general-utilities) \
+<img src="cf.png" alt="Curseforge" width="28" height="28"/> **Curseforge**: [curseforge.com/general-utilities](https://www.curseforge.com/minecraft/mc-mods/general-utilities)
 
 ### Commands:
 

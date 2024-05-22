@@ -12,3 +12,6 @@ Adds useful commands for Mod/ModPack Developers.
 
 <img src="PaxelJS.png" alt="PaxelJS" width="75" height="75" style="inline"/> <a href="PaxelJS.md"/> \
 Adds Paxel support for KubeJS, using the Cucumber Library.
+
+<img src="footerlib.png" alt="FooterLib" width="75" height="75" style="inline" border-effect="rounded"/> <a href="FooterLib.md"/> \
+Contains shared code for my mods.
